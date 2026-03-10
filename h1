@@ -1,1 +1,13 @@
-Hi, github
+#!/bin/bash
+
+echo "What is your name?"
+
+read name
+
+printf "\n"
+echo "Hello $name"
+
+t=$(date "+%Y-%m-%d")
+
+echo "Today is $t" 
+echo "Have a nice Day!"
